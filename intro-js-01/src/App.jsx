@@ -20,7 +20,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <h1>Hola este es el primer componente</h1>
+        <h1>Hola Mundo este es el primer componente</h1>
         <h2>Abajo esta el resto</h2>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
