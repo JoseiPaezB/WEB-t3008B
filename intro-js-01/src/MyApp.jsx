@@ -7,8 +7,16 @@ export function MyApp() {
     console.log(getHeroByEmpresa('DC'));
     return (
         <div>
-            <h1>Tercer Componente en LOG</h1>
-            <h2> CTRL + SHIFT + I</h2>
+            <h1>Heroes</h1>
+            <ul>
+                {
+                    heroes.map((heroe)=>(
+                        <li key={heroe.id}>
+                            {heroe.name}
+                        </li>
+                    ))
+                }
+            </ul>
         </div>
     )
 
