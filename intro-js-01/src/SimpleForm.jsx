@@ -38,7 +38,7 @@ export const SimpleForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formState);
-        setSubmittedData(formState); // Guardamos los datos en el estado
+        setSubmittedData(formState); 
     };
 
     return (
@@ -47,7 +47,7 @@ export const SimpleForm = () => {
             <hr />
 
             <div className="res">
-                <form onSubmit={handleSubmit} className="form"> {/* Usamos onSubmit en el formulario */}
+                <form onSubmit={handleSubmit} className="form"> 
                     <input
                         type="text"
                         className="form-control"
@@ -102,7 +102,6 @@ export const SimpleForm = () => {
 
             {matricula === 'A01643012' && <Message />}
 
-            {/* Mostramos los datos enviados después de enviar el formulario */}
             {submittedData && (
                 <div className="mt-4">
                     <h2>Estudiante</h2>
