@@ -8,14 +8,13 @@ import { Quinto } from './Quinto.jsx'
 import { Cuarto } from './Cuarto.jsx'
 import Sexto from './Sexto.jsx'
 import { Septimo } from './Septimo.jsx'
+import { SimpleForm } from './SimpleForm.jsx'
+import {AppCounter} from './AppCounter.jsx'
+import { Message } from './Message'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <App/>
-  <MySecond/>
-  <MyApp/>
-  <Cuarto/>
-  <Sexto/>
-  <Septimo title="Hola Mundo" subTitle="Este es el subtitulo"/>
+    <AppCounter></AppCounter>
+    <SimpleForm />
   </StrictMode>,
 )
