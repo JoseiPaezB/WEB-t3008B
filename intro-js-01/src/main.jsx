@@ -11,10 +11,13 @@ import { Septimo } from './Septimo.jsx'
 import { SimpleForm } from './SimpleForm.jsx'
 import {AppCounter} from './AppCounter.jsx'
 import { Message } from './Message'
+import { Card } from './Card.jsx'
+import { CustomHook } from './CustomHook.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AppCounter></AppCounter>
     <SimpleForm />
+    <CustomHook />
   </StrictMode>,
 )
